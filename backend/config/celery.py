@@ -11,7 +11,7 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
 app.conf.beat_schedule = {
-    'test_adding': {
+    'refresh_task': {
         'task': 'apps.sites.tasks.refresh_site_statuses',
         'schedule': 60.0,
     }
