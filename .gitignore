@@ -1,0 +1,51 @@
+# backend
+*.orig
+*.pyc
+*.mo
+*.db
+*.pot
+*.map
+
+*.pyo
+.cache/
+
+**/.mypy_cache/
+**/__pycache__/
+
+**/.coverage
+screenshots
+
+# vim files
+*~
+*.swp
+*.swo
+
+#pyCharm files
+.idea
+.vscode
+.pythonconfig
+**/venv
+
+venv
+.vscode
+.pythonconfig
+
+# jupyter
+**/.ipynb_checkpoints
+**/*.ipynb
+
+# sentry
+.sentryclirc
+
+#e2e tests
+**/junit/
+
+# celery
+celerybeat.pid
+celerybeat-schedule
+
+# OS X
+.DS_Store
+
+.idea/
+*.iml
